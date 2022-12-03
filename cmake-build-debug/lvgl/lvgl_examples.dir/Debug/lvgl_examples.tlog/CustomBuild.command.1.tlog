@@ -1,0 +1,10 @@
+^C:\USERS\AA\CLIONPROJECTS\EIPO\LVGL\CMAKELISTS.TXT
+setlocal
+"C:\Users\aa\Desktop\temp\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -SC:/Users/aa/CLionProjects/EIPO -BC:/Users/aa/CLionProjects/EIPO/cmake-build-debug --check-stamp-file C:/Users/aa/CLionProjects/EIPO/cmake-build-debug/lvgl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

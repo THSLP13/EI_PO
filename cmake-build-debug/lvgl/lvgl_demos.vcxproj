@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{094CA83E-0941-31DE-BE97-A9B843123494}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lvgl_demos</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lvgl_demos.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lvgl_demos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lvgl_demos.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lvgl_demos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lvgl_demos.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lvgl_demos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lvgl_demos.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lvgl_demos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LV_LVGL_H_INCLUDE_SIMPLE;LV_CONF_INCLUDE_SIMPLE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\..;C:\Users\aa\CLionProjects\EIPO;C:\Users\aa\CLionProjects\EIPO\RES;C:\Users\aa\CLionProjects\EIPO\lvgl\demos;C:\Users\aa\CLionProjects\EIPO\lvgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aa\CLionProjects\EIPO\lvgl\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/aa/CLionProjects/EIPO/lvgl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Users\aa\Desktop\temp\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -SC:/Users/aa/CLionProjects/EIPO -BC:/Users/aa/CLionProjects/EIPO/cmake-build-debug --check-stamp-file C:/Users/aa/CLionProjects/EIPO/cmake-build-debug/lvgl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aa\CLionProjects\EIPO\lvgl\env_support\cmake\custom.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/aa/CLionProjects/EIPO/lvgl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\aa\Desktop\temp\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -SC:/Users/aa/CLionProjects/EIPO -BC:/Users/aa/CLionProjects/EIPO/cmake-build-debug --check-stamp-file C:/Users/aa/CLionProjects/EIPO/cmake-build-debug/lvgl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aa\CLionProjects\EIPO\lvgl\env_support\cmake\custom.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/aa/CLionProjects/EIPO/lvgl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Users\aa\Desktop\temp\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -SC:/Users/aa/CLionProjects/EIPO -BC:/Users/aa/CLionProjects/EIPO/cmake-build-debug --check-stamp-file C:/Users/aa/CLionProjects/EIPO/cmake-build-debug/lvgl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\aa\CLionProjects\EIPO\lvgl\env_support\cmake\custom.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/aa/CLionProjects/EIPO/lvgl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Users\aa\Desktop\temp\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -SC:/Users/aa/CLionProjects/EIPO -BC:/Users/aa/CLionProjects/EIPO/cmake-build-debug --check-stamp-file C:/Users/aa/CLionProjects/EIPO/cmake-build-debug/lvgl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\aa\CLionProjects\EIPO\lvgl\env_support\cmake\custom.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_alpha16.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_argb.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_chroma_keyed.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_indexed16.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb565a8.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_12_compr_az.c.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_16_compr_az.c.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_28_compr_az.c.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\benchmark\lv_demo_benchmark.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\keypad_encoder\lv_demo_keypad_encoder.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_corner_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_loop.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_loop_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_next.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_next_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_pause.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_pause_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_play.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_play_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_prev.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_prev_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_corner_left.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_corner_left_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_corner_right.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_corner_right_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_cover_1.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_cover_1_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_cover_2.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_cover_2_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_cover_3.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_cover_3_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_1.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_1_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_2.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_2_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_3.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_3_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_4.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_icon_4_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_list_border.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_list_border_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_logo.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_slider_knob.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_slider_knob_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_wave_top.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\assets\img_lv_demo_music_wave_top_large.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\lv_demo_music.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\lv_demo_music_list.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\music\lv_demo_music_main.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\stress\lv_demo_stress.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\widgets\assets\img_clothes.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\widgets\assets\img_demo_widgets_avatar.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\widgets\assets\img_lvgl_logo.c" />
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lvgl\demos\widgets\lv_demo_widgets.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{9852849A-5740-335C-A0C3-959928A7E2B2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aa\CLionProjects\EIPO\cmake-build-debug\lvgl\lvgl.vcxproj">
+      <Project>{1369E602-6B13-3360-823D-2779B0DBD702}</Project>
+      <Name>lvgl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

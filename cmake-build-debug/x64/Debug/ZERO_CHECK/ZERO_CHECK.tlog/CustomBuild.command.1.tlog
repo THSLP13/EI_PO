@@ -1,0 +1,10 @@
+^C:\USERS\AA\CLIONPROJECTS\EIPO\CMAKE-BUILD-DEBUG\CMAKEFILES\714EC172C62D4CF2BE1748B426B8B327\GENERATE.STAMP.RULE
+setlocal
+"C:\Users\aa\Desktop\temp\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -SC:/Users/aa/CLionProjects/EIPO -BC:/Users/aa/CLionProjects/EIPO/cmake-build-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/aa/CLionProjects/EIPO/cmake-build-debug/EIPO.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

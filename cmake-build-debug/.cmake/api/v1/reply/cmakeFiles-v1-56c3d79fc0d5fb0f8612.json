@@ -1,0 +1,197 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/mingw/lib/cmake/SDL2/sdl2-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/mingw/lib/cmake/SDL2/sdl2-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/FeatureSummary.cmake"
+		},
+		{
+			"path" : "lvgl/CMakeLists.txt"
+		},
+		{
+			"path" : "lvgl/env_support/cmake/custom.cmake"
+		},
+		{
+			"path" : "lv_drivers/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/aa/Desktop/temp/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/aa/CLionProjects/EIPO/cmake-build-debug",
+		"source" : "C:/Users/aa/CLionProjects/EIPO"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

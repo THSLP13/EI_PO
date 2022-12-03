@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\GC9A01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\ILI9341.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\R61581.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\SHARP_MIP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\SSD1963.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\ST7565.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\UC1610.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\drm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\display\fbdev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\gtkdrv\gtkdrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\indev\AD_touch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\indev\FT5406EE8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\indev\XPT2046.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\indev\evdev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\indev\libinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\indev\xkb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\sdl\sdl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\sdl\sdl_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\sdl\sdl_gpu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\wayland\wayland.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\win32drv\win32drv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\win_drv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aa\CLionProjects\EIPO\lv_drivers\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F4A3918-26A8-3C83-A607-15064CD398B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
