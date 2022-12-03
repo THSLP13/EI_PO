@@ -18,15 +18,15 @@ Hi~ o(*￣▽￣*)ブ
 
 # 编译注意！
 ## 本repo已包含所需的所有库和源文件
-使用到的库包含
-->LVGLv8
-->SDL2
+使用到的库包含  
+->LVGLv8  
+->SDL2  
 
 ## 请务必不要随意修改任何 *_conf.h 文件避免分辨率问题
 本程序没有做 任意分辨率自适应
 
 # 环境注意
-本repo使用CLion(With toolchain->GCC for Windows)编译
+本repo使用CLion(With toolchain->GCC for Windows)编译  
 请注意C和C++标准必须大于等于std11(也就是C11和C++11)
 
 # 目前的bug
